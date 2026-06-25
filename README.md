@@ -11,3 +11,19 @@ But swin3D was too slow so switched to x3d, c02 was wrote for this, it uses code
 c02.1_Cow_x3d_VideoClassifier_SingularOrPlural_ModelTrain  
 c02.2_Cow_x3d_VideoClassifier_SingularOrPlural_CallingAndUsingTrainedModel  
 c02.3_Cow_x3d_VideoClassifier_SingularOrPlural_CallingAndUsingTrainedModel_SortingAllVideos
+
+Now that most 'Singular cow' in frame videos were extracted,  
+They were fed as input for the eat, rest or walk/stand sorter c03.  
+c03.1_Cow_x3d_VideoClassifier_EatRestWalk_ModelTrain  
+c03.2_Cow_x3d_VideoClassifier_EatRestWalk_CallingAndUsingTrainedModel  
+c03.3_Cow_x3d_VideoClassifier_EatRestWalk_CallingAndUsingTrainedModel_SortingAllVideos  
+
+The sorted videos goes to different bins:
+Predicted_cow_eat  
+Predicted_cow_rest  
+Predicted_cow_walk_stand  
+Predicted_Miscellaneous  
+
+______________________________________________________________________________________________________________________  
+
+
