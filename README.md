@@ -21,11 +21,21 @@ c03.1_Cow_x3d_VideoClassifier_EatRestWalk_ModelTrain
 c03.2_Cow_x3d_VideoClassifier_EatRestWalk_CallingAndUsingTrainedModel  
 c03.3_Cow_x3d_VideoClassifier_EatRestWalk_CallingAndUsingTrainedModel_SortingAllVideos  
 
-The sorted videos goes to different bins:
+The sorted videos goes to different bins:  
 Predicted_cow_eat  
 Predicted_cow_rest  
 Predicted_cow_walk_stand  
 Predicted_Miscellaneous  
+  
+_________________________________________________________  
+
+  
+There were 18,000+ unlabeled cow videos. I took 300 each of videos containing a single cow in the frame and videos containing mutiple cows in the frame, this was used for training 'c02.1_Cow_x3d_VideoClassifier_SingularOrPlural_ModelTrain'. Now I passed all the videos through the trained model, the code looks at each video and places them into 3 buckets - Predicted_cow_singular, Predicted cow_plural and Predicted_Miscellaneous - when then confidence score of a predicted item is low it goes into miscellaneous.
+
+I was able to extract 6000+ singular cow videos. From this I took 300 each of videos containing a cow eating, a cow resting, a cow walking or standing, this was used for training 'c03.1_Cow_x3d_VideoClassifier_EatRestWalk_ModelTrain'. Now I passed the single cow videos through the trained model, the code looks at each video and places them into 4 buckets - Predicted_cow_eat, Predicted_cow_rest, Predicted_cow_walk_stand, Predicted_Miscellaneous - if confidence score of a predicted item is low. Now with this I was able to extract 
+
+
+
 
 
 
