@@ -1,4 +1,9 @@
-lets start!
+<img width="2624" height="894" alt="Cow Data Sorting Process - visual selection (3)" src="https://github.com/user-attachments/assets/26345264-c360-4304-a3fb-8564ca84e9e5" />
+<img width="3102" height="1752" alt="Cow Data Sorting Process - visual selection (2)" src="https://github.com/user-attachments/assets/660aa1ff-2205-4025-bb4e-a8f8301d4e3a" />
+
+
+
+Lets start!
 
 There were 18,000+ cow videos.  
 
@@ -24,6 +29,6 @@ Predicted_cow_rest
 Predicted_cow_walk_stand  
 Predicted_Miscellaneous  
 
-______________________________________________________________________________________________________________________  
+
 
 
