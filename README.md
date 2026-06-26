@@ -3,7 +3,7 @@
 
 Lets start!
 
-There were 18,000+ cow videos.  
+There were 18,000+ cow videos, Unlabeled.  
 
 First I decided to separate them into videos where only one cow was present and videos where more than one cow was present.
 
